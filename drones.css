@@ -1,0 +1,286 @@
+    ol {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: DarkGrey; 
+    }
+        
+    ol  li {
+        float: left;
+    }
+        
+    ol a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 5px;
+          text-decoration: none;
+    }
+        
+    ol a:hover {
+        background-color: black;
+    }
+
+	h2 {
+		margin: auto;
+		font-family: Gill Sans;
+		color: white;
+		font-size: 30px;
+		margin-left: 30px		
+	}
+
+	body{
+  		background: rgb(63,251,146);
+		background: linear-gradient(90deg, rgba(63,251,146,1) 0%, rgba(252,70,107,1) 100%);
+  	}
+
+	.rozine {
+		color: white;
+		background: rgb(181,30,108);
+		background: radial-gradient(circle, rgba(181,30,108,1) 35%, rgba(0,0,0,1) 73%);
+		font-family: verdana;
+		font-size: 18px;
+	}
+
+	.pavadinimas {
+		color: GhostWhite;
+		text-align: center;
+		font-family: Gill Sans;
+		background: rgb(63,251,146);
+		background: linear-gradient(90deg, rgba(63,251,146,1) 0%, rgba(252,70,107,1) 100%);
+	}
+
+	.facebook {
+		text-align: center;
+		margin: auto;
+	}
+
+	.dronai {
+		border: none;
+  		color: white;
+  		padding: 32px;
+  		display: inline-block;
+  		margin: 4px;
+  		transition-duration: 0.4s;
+  		cursor: pointer;
+	}
+
+	.dronai:hover {
+  		background-color: white;
+  		color: white;
+	}
+
+	.dronu_lentele {
+		font-family: Gill Sans;
+  		background-color: transparent;
+  		color: white;
+  		margin: auto;
+  		text-align: center;
+  		font-size: 18px;
+	}
+
+	.lentele {
+  		font-family: Gill Sans;
+ 	 	border-collapse: collapse;
+  		width: 80%;
+  		margin: auto;
+  		background-color: white;
+  		color: black;
+	}
+
+	.lentele td, .lentele th {
+  		border: 1px solid #ddd;
+  		padding: 8px;
+	}
+
+	.lentele tr:nth-child(even){background-color: GhostWhite;}
+
+	.lentele tr:hover {background-color: GhostWhite;}
+
+	.lentele th {
+  		margin-top: 20px;
+  		text-align: left;
+  		background-color: GhostWhite;
+  		color: black;
+	}
+
+	.melyna {
+		font-size: 30px;
+		margin: auto;
+		text-align: center;
+		font-family: Gill Sans;
+		color: white;
+		background: rgb(76,37,180);
+		background: radial-gradient(circle, rgba(76,37,180,1) 28%, rgba(0,0,0,1) 86%);
+	}
+
+	.h {
+		background: rgb(58,180,153);
+		background: linear-gradient(90deg, rgba(58,180,153,1) 0%, rgba(30,29,253,1) 53%, rgba(173,28,100,1) 76%);
+  		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;
+		font-family: Courier New;
+		padding-left: 0px;
+		padding-right: 250px;
+		color: white;
+		font-size: 20px;
+		margin: 150px;
+	}
+	.t {
+		background: rgb(58,180,153);
+		background: linear-gradient(90deg, rgba(58,180,153,1) 0%, rgba(30,29,253,1) 53%, rgba(173,28,100,1) 76%);
+  		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;
+		font-family: Courier New;
+		padding-left: 250px;
+		padding-right: 0px;
+		color: white;
+		font-size: 20px;
+		margin: 150px;
+
+	}
+
+	.all {
+		margin: auto;
+		background-color: black;
+		width: 96%;
+		height: 100%;
+		text-align: center;
+	}
+	.info {
+		margin: auto;
+		margin-top: 100px;
+		margin-bottom: 1000px;
+		background-color: black;
+		color: white;
+		animation: autoscroll 5s ease-in-out infinite;
+  		animation-delay: 2s;
+  		font-size: 18px;
+  		background-color: transparent;
+  		width: max-content;
+	}
+	.paprastas {
+		font-family: Courier New;
+		color: white;
+		margin: 300px;
+		background: rgb(58,180,153);
+		background: linear-gradient(90deg, rgba(58,180,153,1) 0%, rgba(30,29,253,1) 53%, rgba(173,28,100,1) 76%);
+  		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;
+	}
+	p {
+		color: white;
+		font-family: monospace;
+		font-size: 20px;
+	}
+	.phantom {
+		background-color: black;
+		height: max-content;
+		margin-bottom: 17px;
+	}
+	.video {
+		width: 100%;
+		height: 100%;
+		margin: auto;
+		border: 3px purple solid;
+		text-align: center;
+	}
+	#mavic2all {
+		background-color: white;
+		margin: auto;
+		width: 96%;
+		height: 100%;
+		border-radius: 5%;
+	}
+	.blackp {
+		color: black;
+		font-family: monospace;
+		font-size: 16px;
+		margin: auto;
+	}
+	#icon-lentele {
+		width: max-content;
+		margin: auto;
+		font-family: Courier New;
+	}
+	.th {
+		padding-right: 150px;
+		padding-left: 150px;
+		margin: auto;
+	}
+	.he {
+		padding-left: 0px;
+		padding-right: 50px;
+		margin: auto;
+	}
+	.te {
+		padding-left: 50px;
+		padding-right: 0px;
+		margin: auto;
+	}
+	.phantomte {
+		padding: 10px;
+		width: 70px;
+	}
+	.phantomhe {
+		padding-left: 700px;
+	}
+	.phantom-icons {
+		margin-top: 20px;
+	}
+	.allphantom {
+		background-color: white;
+		width: 100%;
+		height: 2000px;
+		margin: auto;
+		text-align: center;
+	}
+	.melyna {
+  		font-size: 45px;
+  		background: rgb(58,180,153);
+		background: linear-gradient(90deg, rgba(58,180,153,1) 0%, rgba(30,29,253,1) 53%, rgba(173,28,100,1) 76%);
+  		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;
+	}
+	.phantom-text-cam {
+		color: grey;
+	}
+	.pereinamas-juoda-i-balta {
+		background: rgb(255,255,255);
+		background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+		width: 100%;
+		height: 50px;
+	}
+	.juoda {
+		width: 685px;
+		height: 200px;
+		margin: auto;
+		text-align: center;
+		background-color: black;
+	}
+	.paprastas-inspire {
+		font-size: 20px;
+		font-family: Courier New;
+		color: white;
+		margin: 0px;
+		background: -webkit-linear-gradient(#eee, #333);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+  	}
+  	h5 {
+  		color: white;
+  		font-family: monospace;
+  		font-size: 30px;
+  		text-align: left;
+  		margin: 0px;
+  	}
+  	.melyna-inspire {
+		margin: 0px;
+		text-align: left;
+		font-size: 45px;
+  		background: rgb(58,180,153);
+		background: linear-gradient(90deg, rgba(58,180,153,1) 0%, rgba(30,29,253,1) 53%, rgba(173,28,100,1) 76%);
+  		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;
+  	}
